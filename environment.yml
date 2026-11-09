@@ -1,0 +1,16 @@
+# 适用于已验证的 Linux x86_64 / NVIDIA V100 服务器环境。
+name: sentiment-rnn
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.11.18
+  - pip
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - pip:
+      - --index-url https://download.pytorch.org/whl/cu118
+      - torch==2.7.1+cu118
