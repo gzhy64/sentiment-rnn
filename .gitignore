@@ -1,1 +1,11 @@
 /corpus/
+__pycache__/
+*.py[cod]
+*.pth
+*.pt
+*.tmp
+.DS_Store
+.idea/
+.venv/
+.ruff_cache/
+/runs/
